@@ -11,3 +11,6 @@ c++真的是好难啊，更难的或许是算法吧，总是无法搞定递归�
 * 判断传入的参数和当前的实例（*this）是否为同一个实例。
 * 释放实例自身已有的内存。
 * 注意如何释放自身内存，如何分配新的空间，如何实现字符串的赋值。
+### 3：[二维数组中的查找](https://github.com/Tramac/CodingInterviews/tree/master/03_FindInPartiallySortedMatrix)
+* 数组代替二维数组。
+* 注意边界条件，循环的停止条件。
