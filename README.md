@@ -23,7 +23,7 @@ c++真的是好难啊，更难的或许是算法吧，总是无法搞定递归�
 * 插入与删除操作中，首先要判断插入或删除的是否为头结点。
 * 插入新结点时需要先分配内存，ListNode* pNew = new ListNode();
 * 可以用栈实现从尾到头打印链表，也可以用递归实现。
-### 6：[重建二叉树]()
+### 6：[重建二叉树](https://github.com/Tramac/CodingInterviews/tree/master/06_ConstructBinaryTree)
 * 熟悉二叉树中递归的使用。
 * 使用四个指针。
 * 由先序遍历确定根节点的值，创建根节点。
@@ -31,8 +31,12 @@ c++真的是好难啊，更难的或许是算法吧，总是无法搞定递归�
 * 在中序遍历中寻找根节点，判断是否找到了根节点。
 * 找到根节点后，判断是否有左子树（通过元素个数判断），如果有，递归调用求左子树的根节点。
 * 同理判断右子树。
-### 7：[用两个栈实现队列]()
+### 7：[用两个栈实现队列](https://github.com/Tramac/CodingInterviews/tree/master/07_QueueWithTwoStacks)
 * 熟悉两个栈实现队列的逻辑。
 * 模板的使用。
 * 栈的压入与弹出，栈顶元素的获取。push(T), pop(),top()。
 * 栈的大小的获取。stack.size()。
+### 8：[旋转数组的最小数字](https://github.com/Tramac/CodingInterviews/tree/master/08_MinNumberInRotatedArray)
+* 熟悉二分查找的思想。
+* 注意旋转0个元素的特殊情况以及解决方法(将indexmin初始化为0)。
+* 注意中间元素与两侧元素相等时的特殊情况，此时需要添加顺序查找。
